@@ -68,6 +68,10 @@ header div p{
 hr{
     width: 45%;
 }
+
+
+
+
 .our-donate-plan{
     text-align: center;
     margin-top: 100px;
@@ -83,8 +87,8 @@ hr{
     display: flex;
     justify-content: center;
 }
-.flexible-container div{
-    width: 20%;
+.flexible-container .donate-plan{
+    width: 22%;
     text-align: left;
     padding: 20px 15px;
     margin: 12px;
@@ -98,4 +102,31 @@ hr{
 }
 .flexible-container #education-child{
     background-color: rgb(254, 254, 211);
+}
+
+
+
+
+.volunteer-section{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.volunteer-section div #volunter-img img{
+    width: 100%;
+    border-radius: 3px;
+}
+.volunteer-section div #join-volunter{
+   text-align: right;
+   /* padding: 20px; */
+   padding-left: 30px;
+}
+.about-us{
+    width: 40%;
+}
+.volunteer-section h1{
+    font-size: 38px;
+}
+.volunteer-section p{
+    color: #65656c;
 }
