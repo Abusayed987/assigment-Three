@@ -35,6 +35,8 @@ header div p{
 
 .donate-today-section{
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .donate-today-section h1{
     font-size: 38px;
@@ -65,4 +67,35 @@ header div p{
 }
 hr{
     width: 45%;
+}
+.our-donate-plan{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.our-donate-plan h1{
+    font-size: 38px;
+}
+.our-donate-plan p{
+    color: #65656c;
+}
+.flexible-container{
+    display: flex;
+    justify-content: center;
+}
+.flexible-container div{
+    width: 20%;
+    text-align: left;
+    padding: 20px 15px;
+    margin: 12px;
+    border-radius: 3px;
+}
+.flexible-container #food-family{
+    background-color: rgb(232, 255, 248);
+}
+.flexible-container #shelter-family{
+    background-color: rgba(250, 228, 224, 0.92);
+}
+.flexible-container #education-child{
+    background-color: rgb(254, 254, 211);
 }
