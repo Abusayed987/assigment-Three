@@ -172,4 +172,19 @@ hr{
 
 
 
-
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 15px;
+}
+footer h4{
+    font-family:cursive;
+    color: tomato;
+ 
+}
+footer p{
+    color: #65656c;
+}
+footer a{
+    text-decoration: none;
+}
