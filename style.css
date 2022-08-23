@@ -130,3 +130,46 @@ hr{
 .volunteer-section p{
     color: #65656c;
 }
+
+
+.get-my-updates{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.get-my-updates h1{
+    font-size: 38px;
+}
+.get-my-updates p{
+    color: #65656c;
+}
+.get-my-updates div{
+    width: 70%;
+    margin: 0 auto;
+    height: 200px;
+    background-color: rgb(254, 254, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.get-my-updates div #send-email{
+    width: 50%;
+    padding: 12px 40px;
+    background-color: #adadad;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+   font-size: 20px;
+}
+.get-my-updates div #btn{
+    background-color: tomato;
+    color: white;
+    padding: 16px 40px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+
+
+
