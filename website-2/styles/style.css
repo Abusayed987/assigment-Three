@@ -19,11 +19,17 @@ section{
     border-radius: 15px;
 }
 .section01 div{
-    width: 45%;
+    width: 47%;
+    height: auto;
+    overflow: hidden;
 }
 .section01 div img{
     width: 100%;
-    transform: scale(1.02);
+    display: block;
+    transition: transform 1s;
+}
+.section01:hover img{
+    transform: skew(1deg) scale(1.1);
 }
 .section01 h1{
     color: #fff;
@@ -144,7 +150,9 @@ footer a i{
     font-size: 30px;
     padding: 20px;
 }
-
+footer .fa-brands{
+    display: none;
+}
 
 /* -------------------------Start Responsive for tablet 
 ---------------------------------------------------*/
@@ -201,9 +209,6 @@ footer a i{
     display: none;
 }
 /*--Section 02 Responsive completed for Tablet-------------------------------*/  
-    footer div a{
-        margin:  40px;
-    }
 }
 
 
@@ -268,4 +273,8 @@ footer a i{
         margin: 12px auto;
         text-decoration: none;
     }
+    footer .fa-brands{
+        display: inline-block;
+    }
 }
+    /* THE END  */
