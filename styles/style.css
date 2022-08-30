@@ -44,23 +44,18 @@ section{
     border-radius: 5px;
     color: #fff;
 }
-/*--------End section 01--------------------------------------------*/
+/*--------End section 01---------------------------------------*/
 
 
-        /*--------------------------------------------------------- 
-                            start section 02  
+        /*------------------ start section 02  
         --------------------------------------------------------*/
 .section02{
-    border: 2px dotted purple;
     display: flex; 
     align-items: stretch;
-    height: 1000px;
 
 }
 .section02 .box{
-    /* width: 252px; */
-    /* height: 252px; */
-    border: 2px dotted red;
+    margin-right: 10px;
 }
 .section02 .box .container{
     background: #161616;
@@ -68,8 +63,6 @@ section{
     flex-direction: column;
     text-align: center;
     padding: 30px 30px 0px 30px;
-    /* margin: 30px; */
-    border: 2px solid saddlebrown;
     border-radius: 10px;
 }
 .section02 .box .container a{
@@ -81,6 +74,11 @@ section{
     border: 1px solid;
     margin-bottom: 30px;
     border-radius: 5px;
+    white-space: nowrap;
+}
+.section02 .box .container #match-button{
+
+
 }
 .section02 .box .container #blog-color{
     background: #FF3D89;
@@ -91,11 +89,13 @@ section{
     flex-grow: 1;   
 }
 .section02 .box .blog-container{
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+    place-items: center;
 }
 .section02 .box .blog-container .blog {
     width: 312px;
-    margin: 0 24px 20px 20px;
     border-radius: 11px;
     border: 0.5px solid #B9B9B9;
 }
@@ -115,15 +115,14 @@ section{
 }
 .section02 .box .blog-container .blog .blog-detail i{
     margin-right: 5px;
-
 }
+/*--------End section 02---------------------------------------*/
 
 
 
+    /*----------------    start footer
+        -----------------------------------------------*/
 
-        /*--------------------------------------------------------- 
-                            start footer
-        --------------------------------------------------------*/
 footer{
     text-align: center;
     padding: 130px 0;
@@ -147,4 +146,7 @@ footer a i{
     font-size: 30px;
     padding: 20px;
 }
-/* Responsive for mobile device */
+/* Responsive for tablet */
+@media screen and (min-width:768px) and (max-width:1023px) {
+    
+}
