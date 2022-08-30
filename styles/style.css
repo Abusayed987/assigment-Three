@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 section{
-    width: 90%;
+    width: 96%;
     margin: 50px auto;
 }
         
@@ -40,7 +40,7 @@ section{
     font-weight: 700;
     border: none;
     padding: 16px 25px;
-    background: #DD0000;
+    background: #FF3D89;
     border-radius: 5px;
     color: #fff;
 }
@@ -49,16 +49,74 @@ section{
 
         /*--------------------------------------------------------- 
                             start section 02  
-        --------------------------------------------------------
-.section02 .box01{
+        --------------------------------------------------------*/
+.section02{
+    border: 2px dotted purple;
+    display: flex; 
+    align-items: stretch;
+    height: 1000px;
 
 }
-.section02 .box02{
+.section02 .box{
+    /* width: 252px; */
+    /* height: 252px; */
+    border: 2px dotted red;
+}
+.section02 .box .container{
+    background: #161616;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 30px 0px 30px;
+    /* margin: 30px; */
+    border: 2px solid saddlebrown;
+    border-radius: 10px;
+}
+.section02 .box .container a{
+    background: #fff;
+    /* font-weight: 700; */
+    color:#161616;
+    text-decoration: none;
+    padding: 17px 39px;
+    border: 1px solid;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.section02 .box .container #blog-color{
+    background: #FF3D89;
+    color: #fff;
+    border: none;
+}
+.section02 #box01{
+    flex-grow: 1;   
+}
+.section02 .box .blog-container{
 
-}*/
+}
+.section02 .box .blog-container .blog {
+    width: 312px;
+    margin: 0 24px 20px 20px;
+    border-radius: 11px;
+    border: 0.5px solid #B9B9B9;
+}
+.section02 .box .blog-container .blog .blog-detail{
+    padding: 20px;
+}
+.section02 .box .blog-container .blog .blog-detail button{
+    padding: 4px 16px;
+    background: #fff;
+    border: 1px solid #B9B9B9;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.section02 .box .blog-container .blog .blog-detail span{
+    color: rgba(22, 22, 22, 0.7);
+    margin-right: 12px;
+}
+.section02 .box .blog-container .blog .blog-detail i{
+    margin-right: 5px;
 
-
-
+}
 
 
 
