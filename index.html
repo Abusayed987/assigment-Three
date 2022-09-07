@@ -13,7 +13,7 @@
 
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top container">
             <div class="container-fluid">
                 <a class="navbar-brand text-primary h3" href="#">Tech Mama</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -27,16 +27,16 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Courses</a>
+                            <a class="nav-link active" aria-current="page" href="#course">Courses</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Bonus</a>
+                            <a class="nav-link active" aria-current="page" href="#bonus">Bonus</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Feedback</a>
+                            <a class="nav-link active" aria-current="page" href="#student">Students</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Question?</a>
+                            <a class="nav-link active" aria-current="page" href="#accordion">Question?</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -47,7 +47,7 @@
             </div>
         </nav>
         <!--slide start   -->
-        <section class="my-5">
+        <section style="margin-top: 58px;">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -93,7 +93,7 @@
     </header>
     <main class="container">
         <!-- course section start  -->
-        <section class="  my-5">
+        <section class="my-5" id="course">
             <div class="text-center  d-flex flex-column align-items-center">
                 <div class="col-lg-8">
                     <h1>Discover Our Popular Courses</h1>
@@ -202,7 +202,7 @@
         </section>
         <!-- course section end  -->
         <!-- bonus section start  -->
-        <section class="my-5">
+        <section class="my-5" id="bonus">
             <div class="row bg-primary text-light d-flex align-items-center p-5 rounded-2">
                 <div class="row col-lg-8">
                     <div>
@@ -254,7 +254,7 @@
         </section>
         <!-- bonus section end  -->
         <!-- optional section  start-->
-        <section class=" my-5">
+        <section class="my-5" id="student">
                 <div class="col-lg-8">
                 <h1>Meet Our Successfull Students</h1>
                 <p class="text-secondary">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -262,7 +262,7 @@
             <div class="container my-5">
                 <div class="row justify-content-evenly g-4 ">
                     <div class="card col-lg-3 col-md-6 col-sm-12 border-0">
-                        <img src="./images/student/student-1.png    " class="card-img-top img-fluid" alt="...">
+                        <img src="./images/student/student-1.png" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
                             <h5>Awlad Hossain</h5>
                           <p class="card-text">UIUX Designer</p>
@@ -270,7 +270,7 @@
                         <hr class="border-1">
                       </div>
                     <div class="card col-lg-3 col-md-6 col-sm-12 border-0">
-                        <img src="./images/student/student-2.png    " class="card-img-top img-fluid" alt="...">
+                        <img src="./images/student/student-2.png" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
                             <h5>Jannatul Islam</h5>
                           <p class="card-text">Motion Design</p>
@@ -278,7 +278,7 @@
                         <hr class="border-1">
                       </div>
                     <div class="card col-lg-3 col-md-6 col-sm-12 border-0">
-                        <img src="./images/student/student-3.png    " class="card-img-top img-fluid" alt="...">
+                        <img src="./images/student/student-3.png" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
                             <h5>Imran Hossain</h5>
                           <p class="card-text">Graphic Designer</p>
@@ -286,7 +286,7 @@
                         <hr class="border-1">
                       </div>
                     <div class="card col-lg-3 col-md-6 col-sm-12 border-0">
-                        <img src="./images/student/student-4.png    " class="card-img-top img-fluid" alt="...">
+                        <img src="./images/student/student-4.png" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
                             <h5>Nishi Akter</h5>
                           <p class="card-text">Web Developer</p>
@@ -304,7 +304,7 @@
         <!-- optional section  end-->
 
         <!-- Accordion section start  -->
-        <section class="my-5">
+        <section class="my-5" id="accordion">
             <div class="text-center  d-flex flex-column align-items-center my-4">
                 <div class="col-lg-8">
                     <h1>Frequently Asked Questions</h1>
@@ -362,7 +362,7 @@
                   </div>
                 </div>
               </div>
-        </section>
+        </section> 
         <!-- Accordion section End  -->
         <!--  company section start-->
         <section class="d-none d-sm-none d-md-none d-lg-block">
