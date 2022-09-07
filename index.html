@@ -13,7 +13,7 @@
     <header class="container">
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand text-primary h3" href="#">Tech Mama</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -92,11 +92,11 @@
     <main class="container">
         <!-- course section start  -->
         <section class="  my-5">
-            <div class=" text-center">
-                <h1>Discover Our Popular <br> Courses</h1>
-                <p>Anatomy VR gives unique experiences with the human body. VRLab Anatomy is an <br> interactive human
-                    anatomy atlas.</p>
-            </div>
+            <div class="text-center  d-flex flex-column align-items-center">
+                <div class="col-lg-8">
+                    <h1>Discover Our Popular Courses</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
             <div class="container my-5">
                 <div class="row justify-content-evenly g-4 ">
                     <div class="card mb-3 col-lg-5  p-0  border shadow-sm">
@@ -253,47 +253,83 @@
         <!-- bonus section end  -->
 
         <!-- Accordion section start  -->
-        <!-- <section>
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
+        <section class="my-5">
+            <div class="text-center  d-flex flex-column align-items-center my-4">
+                <div class="col-lg-8">
+                    <h1>Frequently Asked Questions</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+            </div>
+            <div class="accordion d-flex flex-column align-items-center " id="accordionExample">
+                <div class="accordion-item col-lg-8 col-md-12 col-sm-12 col-12">
                   <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Accordion Item #1
+                        What is the difference between Flexbox and Flex?
                     </button>
                   </h2>
                   <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      <strong>Grid is made for two-dimensional layout while Flexbox is for one.</strong> . This means Flexbox can work on either row or columns at a time, but Grids can work on both. GRID gives you more flexibility to move around the blocks irrespective of your HTML markup.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item col-lg-8 col-md-12 col-sm-12 col-12">
                   <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Accordion Item #2
+                        What is the difference between Bootstrap and Tailwind css ?
                     </button>
                   </h2>
                   <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      <strong>The significant difference between Tailwind CSS and Bootstrap is that</strong> Tailwind offers predesigned widgets to build a site from scratch with fast UI development, while Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. 
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item col-lg-8 col-md-12 col-sm-12 col-12">
                   <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Accordion Item #3
+                        What do you mean by CSS box model?
                     </button>
                   </h2>
                   <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      <strong>The CSS box model is essentially a box that wraps around every HTML element.</strong> The CSS Box Model is used to create a definition for the way the HTML elements are organized on the screen. This approach accounts for options such as margins, padding, borders, and all the properties that manipulate them. Each element can be thought of as having its own box.    `
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item col-lg-8 col-md-12 col-sm-12 col-12">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    What is the semantic tag?
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>The semantic HTML tags help the search engines and other user devices to determine the importance and context of web pages.</strong> <br>Examples of non-semantic elements: div and span - Tells nothing about its content. <br>
+                        Examples of semantic elements: form, table, and article - Clearly defines its content.
                     </div>
                   </div>
                 </div>
               </div>
-        </section> -->
+        </section>
         <!-- Accordion section End  -->
+        <!--  company section start
+        <section class="d-none d-sm-none d-md-none d-lg-block">
+            <div class="text-center ">
+                <div class="">
+                    <h4>Trusted by over 800+ companies</h4>
+                    <div class="d-flex justify-content-between align-items-center my-4">
+                    <a href="#"><img class="img-fluid" src="images/company/company-1.png" alt=""></a>
+                    <a href="#"><img class="img-fluid" src="images/company/company-2.png" alt=""></a>
+                    <a href="#"><img class="img-fluid" src="images/company/company-3.png" alt=""></a>
+                    <a href="#"><img class="img-fluid" src="images/company/company-4.png" alt=""></a>
+                    <a href="#"><img class="img-fluid" src="images/company/company-5.png" alt=""></a>
+                    <a href="#"><img class="img-fluid" src="images/company/company-6.png" alt=""></a>
+                    </div>
+                </div>
+            </div> 
+        </section> -->
+        <!--  company section  End-->
     </main>
     <footer>
     </footer>
